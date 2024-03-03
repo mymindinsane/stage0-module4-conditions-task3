@@ -8,7 +8,7 @@ public class SalaryCalculator {
             System.out.println(salary * 0.82);
         } else if (salary > 20000){
             System.out.println(salary * 0.8);
-        } else if (salary == 0){
+        } else if (salary <= 0){
             System.out.println("wrong input!");
         }
     }
